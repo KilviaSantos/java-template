@@ -1,4 +1,4 @@
-package com.atv1.app;
+package com.atv1.app.atividadeEstrutura;
 
 /* 
 1 - Elaborar um algoritmo que leia um número inteiro positivo n;
