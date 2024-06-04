@@ -30,4 +30,14 @@ public class LingP2_Funcionario {
 
         System.out.println(nome + "está em período de férias.");
     }
+
+    public void falta(){
+
+        System.out.println(nome + "está ausente do trabalho.");
+    }
+
+    public void pedidoDemissao(){
+
+        System.out.println(nome + "pediu demissão.");
+    }
 }
