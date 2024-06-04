@@ -10,8 +10,9 @@ public class LingP2_Funcionario {
     private String cpf;
     private String dataAdmissao;
 
+    // construtor
     public LingP2_Funcionario(String nome, String endereco, String telefone, String rg, String cpf, String dataAdmissao){
-
+        //inicializando os campos
         this.nome = nome;
         this.endereco = endereco;
         this.telefone = telefone;
@@ -22,22 +23,23 @@ public class LingP2_Funcionario {
     }
 
 /* Um funcionário pode tirar férias, faltar e solicitar saída do emprego*/
-/* Crie uma classe de execução chamada Fábrica*/
-/* Na classe Fábrica instancie três Funcionários*/
-/* Inicialize os valores de cada Funcionário criado*/
 
-    public void ferias(){
-
-        System.out.println(nome + "está em período de férias.");
+    public void tirarFerias() {
+        System.out.println(nome + " está em período de férias.");
     }
 
-    public void falta(){
+    public void faltar(){
 
-        System.out.println(nome + "está ausente do trabalho.");
+        System.out.println(nome + " está ausente do trabalho.");
     }
 
-    public void pedidoDemissao(){
-
-        System.out.println(nome + "pediu demissão.");
+    public void pedirDemissao(){
+        System.out.println(nome + " pediu demissão.");
     }
+
+    
 }
+
+
+
+
